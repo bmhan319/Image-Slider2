@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+  </head>
+
+  <body>
+    
+    <main class="container">
+      <div class="inner-container">
+        <div class="house-wrapper house-active">
+          <p class="number">1 / 6</p>
+          <img src="img/house1.jpg" />
+          <p class="caption">House 1</p>
+        </div>
+
+        <div class="house-wrapper">
+          <p class="number">2 / 6</p>
+          <img src="img/house2.jpg" />
+          <p class="caption">House 2</p>
+        </div>
+
+        <div class="house-wrapper">
+          <p class="number">3 / 6</p>
+          <img src="img/house3.jpg" />
+          <p class="caption">House 3</p>
+        </div>
+
+        <div class="house-wrapper">
+          <p class="number">4 / 6</p>
+          <img src="img/house4.jpg" />
+          <p class="caption">House 4</p>
+        </div>
+
+        <div class="house-wrapper">
+          <p class="number">5 / 6</p>
+          <img src="img/house5.jpg" />
+          <p class="caption">House 5</p>
+        </div>
+
+        <div class="house-wrapper">
+          <p class="number">6 / 6</p>
+          <img src="img/house6.jpg" />
+          <p class="caption">House 6</p>
+        </div>
+      </div>
+      
+      <a class="prev" onclick="arrowClick(-1)" href="#">&#60;</a>
+      <a class="next" onclick="arrowClick(1)" href="#">&#62;</a>
+      
+        
+    </main>
+    
+    <section class="dot-wrapper">
+      <span class="dot active" onclick="dotClick(1);"></span>
+      <span class="dot" onclick="dotClick(2);"></span>
+      <span class="dot" onclick="dotClick(3);"></span>
+      <span class="dot" onclick="dotClick(4);"></span>
+      <span class="dot" onclick="dotClick(5);"></span>
+      <span class="dot" onclick="dotClick(6);"></span>
+    </section>
+
+    
+  <script src="js/main.js"></script>
+  </body>
+</html>
